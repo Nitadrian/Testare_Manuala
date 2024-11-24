@@ -1,4 +1,4 @@
-<h1>Testing Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+<h1>Testing Project for BLUEGIFTS</h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
@@ -28,45 +28,77 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here **(inserati link catre documentul cu planul de testare)**
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here (https://docs.google.com/document/d/1csD214Vh7Saf7Vs0SzBFK6v9e3kx6WcA/edit?usp=sharing&ouid=115896007939005608517&rtpof=true&sd=true)![image](https://github.com/user-attachments/assets/a2ec0ff3-a529-4413-8ad2-1749c0301528)
+
 
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
+
 <ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
+  <li>Popescu Maria</li> 
+  <li>Popescu Iulia</li>
+  <li>Rusu Noelia</li>
+  <li>Niță Adrian</li>
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+Specificațiile aplicației BlueGifts au fost complet finalizate și documentate.
+Mediul de testare a fost configurat și este stabil.
+Testele automate au fost pregătite și integrate în sistem.
+Resursele necesare (testeri, medii de testare, acces la sistemul de dezvoltare) sunt disponibile.
+Furnizarea accesului la aplicație pentru testare a fost realizată.
+Datele de testare au fost pregătite.
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+Toate cazurile de testare au fost executate conform planului de testare.
+Toate defectele critice au fost raportate și rezolvate sau o decizie a fost luată privind remedierea lor.
+Funcționalitățile cheie au fost validate și funcționează conform cerințelor specificate.
+Testele de regresie au fost efectuate și nu au apărut erori noi în zonele testate.
+Rapoartele de testare au fost completate și documentate corespunzător.
+Performanța aplicației a fost testată și nu există întârzieri sau probleme semnificative.
+Documentația de testare a fost actualizată corespunzător cu rezultatele obținute.
+
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Testarea funcționalităților aplicației BlueGifts, inclusiv:
+Funcționalitatea de căutare a produselor.
+Testarea filtrării produselor după categorii, preț, rating etc.
+Verificarea procesului de adăugare a produselor în coș și a modificării cantității.
+Testarea procesului de checkout (finalizarea comenzilor).
+Testarea afisării prețului total în coș.
+Verificarea performanței (timpul de încărcare a paginii și a produselor).
+Testarea compatibilității pe diferite dispozitive și browsere.
+
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Teste de security testing (aceasta va fi o etapă separată și nu face parte din testarea inițială).
+Teste de compatibilitate cu platformele externe (ex. platforme de plată terță parte).
+Teste de performanță de încărcare sub volum mare de trafic.
+Teste de usability (evaluarea experienței utilizatorului nu va face parte din acest ciclu de testare).
+
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+Disponibilitatea resurselor: Riscul de a nu avea suficiente resurse (testeri, echipamente de testare) în perioada stabilită.
+Accesul limitat la mediu: Posibile întârzieri în obținerea accesului complet la mediile de testare sau la aplicație.
+Modificări ale cerințelor pe parcursul testării, care pot duce la necesitatea refacerii unor teste.
+Condițiile tehnice: Riscuri legate de performanța serverelor sau a aplicației, care pot influența timpii de testare.
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+Incoerențe în implementarea funcționalităților: Posibilitatea ca funcționalitățile să nu fie implementate conform specificațiilor.
+Bugs critici care ar putea afecta experiența utilizatorilor (ex: imposibilitatea de a adăuga produse în coș sau erori în procesul de checkout).
+Defecte de UI care ar putea influența utilizabilitatea aplicației (ex: elemente de design care nu se potrivesc corect pe dispozitive mobile).
+Probleme de performanță legate de încărcarea paginilor sau de încărcarea lentă a produselor.
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -74,7 +106,10 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+Etapa de monitorizare și control a fost implementată pentru a urmări progresul testării, a verifica dacă toate testele sunt realizate conform planului și a identifica posibile riscuri sau întârzieri. De asemenea, prin această etapă s-a dorit verificarea conformității testelor cu cerințele de afaceri și cele tehnice stabilite anterior. Monitorizarea a fost realizată prin generarea de rapoarte de status în Zephyr. Aceste rapoarte au furnizat detalii despre testele executate, testele care au eșuat și starea generală a proiectului. 
+
+![image](https://github.com/user-attachments/assets/88c4a724-8004-43b4-b2b0-ba17a02f15e9)
+
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
