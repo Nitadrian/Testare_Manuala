@@ -141,6 +141,7 @@ https://docs.google.com/spreadsheets/d/14NY6yCs-xEeutvhSGV_ZKhk_8m_OSIDX/edit?us
 The following elements are needed to be ready before the test execution phase begins:
 
 Mediul de testare:
+
 Configurat și funcțional, pe site-ul bluegifts
 Baza de date cu date fictive (produse, utilizatori).
 Acces:
