@@ -112,44 +112,103 @@ Etapa de monitorizare și control a fost implementată pentru a urmări progresu
 
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements. 
 
 The following test conditions were found: <br>
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
+Adăugarea produsului în coș
+Filtrarea produselor după preț
+Verificarea actualizării cantității produselor din coș
+Verificarea afișării prețului total în coș
+Verificarea funcționalității de căutare a produselor
+Verificarea afișării erorilor pentru câmpurile obligatorii incomplete
+Verificarea comportamentului site-ului pe dispozitive mobile
+Verificarea procesului de adăugare la Wishlist
+Verificarea opțiunii de filtrare a produselor după disponibilitate
+Verificarea rapidității de încărcare a paginii și a produselor pe Blue Gifts
+
+
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
+https://docs.google.com/spreadsheets/d/14NY6yCs-xEeutvhSGV_ZKhk_8m_OSIDX/edit?usp=sharing&ouid=115896007939005608517&rtpof=true&sd=true
+![image](https://github.com/user-attachments/assets/2a54d630-9df3-421f-a434-585d8610f76a)
+
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
+Mediul de testare:
+Configurat și funcțional, pe site-ul bluegifts
+Baza de date cu date fictive (produse, utilizatori).
+Acces:
+Link de test și credențiale pentru utilizatori (admin, user normal, guest).
+Date de test:
+Produse fictive (prețuri, stocuri).
+Conturi utilizator și metode de plată simulate.
+Test cases:
+Documentate și aprobate Trasabilitate verificată între cerințe și teste.
+Instrumente:
+JIRA + Zephyr pentru gestionarea testelor și bugurilor.
+Lighthouse/GTmetrix pentru testarea performanței.
+Resurse:
+Echipa QA și dezvoltatorii disponibili pentru suport.
+Criterii de intrare:
+Aplicația livrată și aprobată pentru testare.
+Cerințele analizate și confirmate.
+
+
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: bluegifts.v1
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+
+Bugs have been created based on the failed tests. The complete bug reports can be found here: 
+
+https://drive.google.com/file/d/1q1joCT2DG6bQBo6ffzX-NTdo4sujru1m/view?usp=sharing si https://drive.google.com/file/d/1YhxjC61SLr-Erm6CXwJ3k73sFBvNpf7z/view?usp=sharing 
 
 The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+
+Filtrarea produselor după disponibilitate nu exista - prioritate medie
+Încărcarea lentă a paginii și a produselor pe Blue Gifts - prioritate medie
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 <h3> 1.7 Test Completion</h3>
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: ![image](https://github.com/user-attachments/assets/ac5d557e-375d-4a12-a722-c158c75610cb)
+
 
 Test execution chart was generated and can be found below. 
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
+![image](https://github.com/user-attachments/assets/a0ec3294-00ff-448f-b34d-396487b3e133)
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+The final report shows that a number 10 tests have failed of a total of 2
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+A number of 2 total bugs were found, both having a medium priority level
+
+Au fost create 10 de teste, acoperind aproximativ 80% din cerințele aplicației. Funcționalitățile cheie au fost testate, dar filtrarea avansată și performanța sub sarcină nu au fost complet acoperite.
+
+Impactul bug-urilor
+Au fost identificate 2 bug-uri medii. Acestea nu vor împiedica lansarea, dar trebuie corectate într-o actualizare ulterioară.
+
+
+
+Recomandări
+Corectarea bug-urilor.
+Testarea suplimentară a performanței și securității.
+
+
+
+
+
+
+
+
+
+
