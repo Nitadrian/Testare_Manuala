@@ -2,19 +2,23 @@
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: **Inserati aici numele aplicatiei pe care o testati**
+Application under test: **BLUEGIFTS**
 
 Tools used: Jira, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 
-The below story **(daca aveti mai multe scrieti stories**) was created in Jira and describes the functional specifications of the "**nume_modul**" module, for which the final project is performed upon.
+The below stories were created in Jira and describe the functional specifications of the "BLUEGIFTS" module, for which the final project is performed upon.
+![Captură de ecran din 2024-11-24 la 19 46 11](https://github.com/user-attachments/assets/480d8568-e7a7-4aca-b09a-f3741dd67862)
+![Captură de ecran din 2024-11-24 la 19 46 24](https://github.com/user-attachments/assets/97730845-af35-4d98-94a3-abed6822f3f6)
+![Captură de ecran din 2024-11-24 la 19 48 23](https://github.com/user-attachments/assets/9f358eba-fb9c-491e-bb3c-c853385eb41d)
 
-**inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier**
+
 
 Here you can find the release that was created for this project:
+![Captură de ecran din 2024-11-24 la 19 48 23](https://github.com/user-attachments/assets/03a95638-49ab-4779-b069-ec425732cad4)
 
-**(inserati aici o poza cu release-ul pe care l-ati creat in jira. Atentie, release-ul nu va contine si teste, ci doar epic-uri, story-uri, task-uri, subtaskuri si bug-uri)**
+
 
 <h2>Testing process</h2>
 
