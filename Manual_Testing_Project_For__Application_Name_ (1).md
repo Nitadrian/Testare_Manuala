@@ -152,18 +152,24 @@ The following elements are needed to be ready before the test execution phase be
 Mediul de testare:
 Configurat și funcțional, pe site-ul bluegifts
 Baza de date cu date fictive (produse, utilizatori).
+
 Acces:
 Link de test și credențiale pentru utilizatori (admin, user normal, guest).
+
 Date de test:
 Produse fictive (prețuri, stocuri).
 Conturi utilizator și metode de plată simulate.
+
 Test cases:
 Documentate și aprobate Trasabilitate verificată între cerințe și teste.
+
 Instrumente:
 JIRA + Zephyr pentru gestionarea testelor și bugurilor.
 Lighthouse/GTmetrix pentru testarea performanței.
+
 Resurse:
 Echipa QA și dezvoltatorii disponibili pentru suport.
+
 Criterii de intrare:
 Aplicația livrată și aprobată pentru testare.
 Cerințele analizate și confirmate.
