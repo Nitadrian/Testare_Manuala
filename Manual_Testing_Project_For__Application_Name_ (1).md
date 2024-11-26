@@ -117,14 +117,23 @@ The testing process will be executed based on the application requirements.
 The following test conditions were found: <br>
 
 Adăugarea produsului în coș
+
 Filtrarea produselor după preț
+
 Verificarea actualizării cantității produselor din coș
+
 Verificarea afișării prețului total în coș
+
 Verificarea funcționalității de căutare a produselor
+
 Verificarea afișării erorilor pentru câmpurile obligatorii incomplete
+
 Verificarea comportamentului site-ului pe dispozitive mobile
+
 Verificarea procesului de adăugare la Wishlist
+
 Verificarea opțiunii de filtrare a produselor după disponibilitate
+
 Verificarea rapidității de încărcare a paginii și a produselor pe Blue Gifts
 
 
